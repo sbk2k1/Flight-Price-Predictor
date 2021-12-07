@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("../assets/plane.jpg");
+  background-position: left;
+}
+
+.navbar {
+  height: 70px;
+  background-color: rgba(39, 39, 39, 0.8);
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 99;
+}
+
+.container {
+  margin-top: 7%;
+}
+
+a {
+  color: #f1f9f9;
+}
+
+a:hover {
+  color: #f0f0f0;
+}
+
+.logo {
+  width: 6%;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+}
+
+.navbar-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.name {
+  margin-left: 2%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 170%;
+  font-weight: lighter;
+  color: #fa601a;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card {
+  transition: 0.5s;
+  background-color: rgba(66, 72, 78, 0.5);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  color: #fa601a;
+}
+
+input[type="submit"] {
+  transition: 0.5s;
+  background-color: rgba(250, 96, 26, 0.7);
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(248, 85, 9, 0.9);
+  -webkit-backdrop-filter: blur(45px);
+  backdrop-filter: blur(45px);
+  transform: scale(1.5);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.predictText {
+  font-style: italic;
+  color: white;
+}
+
+.credits {
+  color: white;
+}
